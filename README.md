@@ -9,7 +9,9 @@ Overview:
 
 1. GTWR model -- we further explore the relationship between SDOH variables and COVID-19 incidence at a higher resolution. We used the two-step golden-section search function to determine the model badwidth and spatio-temporal scale based on the small-sampled adjusted AIC values. The model returned a correlation coefficient at each time point in each ZCTA. 
 
-1. Visualize output of GTWR -- 1) we visualized temporal trend of coefficient between incidence and each variable (% crowding, % employed in service, % no high school degree, % Hispanic and % non-Hispanic Black) for the counties that had the highest medium COVID-19 incidence during the study period (Stanislaus, Kings, Los Angeles and Sacramento). This is medium coefficient of ZCTAs in each county. 2) we mapped medium coefficients for each variable during each wave at ZCTA level.
+1. Visualize output of GTWR --
+     1) we visualized temporal trend of coefficient between incidence and each variable (% crowding, % employed in service, % no high school degree, % Hispanic and % non-Hispanic Black) for the counties that had the highest medium COVID-19 incidence during the study period (Stanislaus, Kings, Los Angeles and Sacramento). This is medium coefficient of ZCTAs in each county.
+     2) we mapped medium coefficients for each variable during each wave at ZCTA level.
 
 
 ## File structures in this repository:

@@ -24,8 +24,5 @@ Overview:
 - *GTWR_Choropleth_v2.ipynb* :
 - *GTWR_Results_Visuals_[single_var]_v3.ipynb* : Temporal line graph of GTWR coefficient for each variable
 
-#### /Data
-- 
-
 #### /Ouput
 - 

@@ -2,7 +2,7 @@
 Overview:
 
 
-## Analysis Workflow
+### Analysis Workflow
 1. Time series clustering -- we first run time series clustering using Euclidean to group ZCTAs with similar trend of incidence during the 122 weeks. There are 4 clusters identified. This process reveals the ZCTAs of peak values in each wave.
 
 1. Variable selection -- we first performed correlation matrix for each pair of the variables. When the coefficients > 0.5 (p<0.05), we removed the variables. Then we performed spatial lag regression with random effect. This analysis is specifically suitable for exploring the relationship between dynamic a outcome variable and static explorataroy variables. We keep the variables with significance (p < 0.05). However, we also kept the commorbidity of obesity based on a domain expert on the team. 
@@ -14,7 +14,7 @@ Overview:
      2) we mapped medium coefficients for each variable during each wave at ZCTA level.
 
 
-## File structures in this repository:
+### File structures in this repository:
 
 #### /Analysis
 - *Analysis_TSClust_LogisticReg.r* : 
